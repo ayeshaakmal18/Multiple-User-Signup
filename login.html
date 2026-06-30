@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Multiple User Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-shell">
+        <div class="auth-card">
+            <div class="brand-badge">Login</div>
+            <h1>Welcome back</h1>
+            <p class="subtext">Sign in to access your saved accounts and continue.</p>
+
+            <div class="form-field">
+                <label for="email">Email address</label>
+                <input type="email" name="email" placeholder="Enter your email" id="email">
+            </div>
+
+            <div class="form-field">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Enter your password" id="password">
+            </div>
+
+            <button class="primary-btn" type="button" id="login" onclick="login()">Login</button>
+
+            <p class="secondary-text">Need an account? <a href="index.html">Signup here</a></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
