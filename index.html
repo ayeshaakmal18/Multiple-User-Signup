@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Multiple User Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-shell">
+        <div class="auth-card">
+            <div class="brand-badge">Signup</div>
+            <h1>Create your account</h1>
+            <p class="subtext">Register a new user to access the login page and manage accounts.</p>
+
+            <div class="form-field">
+                <label for="name">Full name</label>
+                <input type="text" name="name" placeholder="Enter your name" id="name">
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email address</label>
+                <input type="email" name="email" placeholder="Enter your email" id="email">
+            </div>
+
+            <div class="form-field">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Enter your password" id="password">
+            </div>
+
+            <button class="primary-btn" type="button" id="signup" onclick="signup()">Create account</button>
+
+            <p class="secondary-text">Already registered? <a href="login.html">Login here</a></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
